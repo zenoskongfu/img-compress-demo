@@ -1,5 +1,5 @@
 {
-	"name": "@andy/img-compress-demo",
+	"name": "@andy-demo/img-compress-demo",
 	"version": "1.0.0",
 	"main": "index.js",
 	"keywords": [
@@ -17,5 +17,13 @@
 	"dependencies": {
 		"sharp": "^0.33.5",
 		"cac": "^6.7.14"
+	},
+	"files": [
+		"bin",
+		"src"
+	],
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
 	}
 }
