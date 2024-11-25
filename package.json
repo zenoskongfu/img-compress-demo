@@ -1,0 +1,19 @@
+{
+	"name": "@zenos-chen/img-compress-demo",
+	"version": "1.0.1",
+	"main": "index.js",
+	"scripts": {},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"bin": {
+		"compress-demo": "bin/cli"
+	},
+	"devDependencies": {
+		"cac": "^6.7.14"
+	},
+	"dependencies": {
+		"sharp": "^0.33.5"
+	}
+}
